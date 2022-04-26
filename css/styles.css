@@ -1,0 +1,63 @@
+/* Elements */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    --color-red: #F03C42;
+    --color-withe: #fff;
+}
+
+header {
+    background-color: var(--color-red);
+    color: var(--color-withe);
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+nav h1 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+/* Class e IDs */
+
+.container-contact {
+    display: flex;
+    align-items: center;
+}
+
+.container-contact img {
+    margin-right: 10px;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
